@@ -1,4 +1,7 @@
-# SOLID- Dependency Inversion Principle (DIP)
+---
+layout: post
+title: Dependency Inversion Principle
+---
 Source:  [Mostly based on Robert C. Martin article Engineering Notebook columns for The C++ Report.](https://drive.google.com/file/d/0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz/view)
 ## Definition
 As whole SOLID principles, also Dependency Inversion Principle comes to the world thanks to the Uncle Bob (Robert C. Martin).
