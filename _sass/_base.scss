@@ -55,7 +55,7 @@ p {
         color: #fff;
     }
     .name {
-        font-size: 32px;
+        font-size: 29px;
         font-weight: 900;
         margin-top: 0;
         margin-bottom: 10px;
@@ -252,6 +252,14 @@ p {
     .level-bar-inner {
         height: 12px;
         background: lighten($theme-color, 15%);
+    }
+    .level-text {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        position: relative;
+        top: 1px;
+        font-size: 14px;
     }
 }
 
