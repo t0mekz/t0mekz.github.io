@@ -3,74 +3,55 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Tomasz Żdanuk
+    tagline: Ruby on Rails & Javascript Developer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: t.zdanuk@gmail.com
+    phone: 
+    website: t0mekz.github.io #do not add http://
+    linkedin: tomasz-żdanuk-b77b7ba8/
+    github: t0mekz
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
     languages:
-      - idiom: English
+      - idiom: Polish
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
+      - idiom: English
         level: Professional
         
     interests:
-      - item: Climbing
+      - item: Photography
+        link: 
+
+      - item: Psychology
         link:
 
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
+      - item: Wes Anderson Movies
         link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      Backend oriented developer with abilities to work as heavy frontend developer.
+      Willing to learn new technologies and to share already known with others.
+      Trying to level technocracy and client needs.
+      Curious, ambitious, heavy working, open minded.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point 
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BSc in Computer Science
+      university: Wrocław University of Technology
+      time: 2013 - 2017
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -82,117 +63,74 @@ education:
           - Bullet point 
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Ruby on Rails & JavaScript Developer
+      time: 2016 - Present
+      company: Naturaily, Wrocław
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        I've gone through all career steps, from an Intern to the Full Mid.   
+        During this time I’ve worked on 10+ different projects,
+        with various team sizes (in teams from 1 to 5 peoples),
+        from different countries and in different approaches (outsourcing/full product).
 
-          - Bullet point
-          - Bullet point 
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        My main responsibilites was:
+          - developing and maintaining backend applications
+          - prepare application architecture
+          - developing heavy-side JavaScript applications (Vue, Ember)
+          - mentoring younger employees (code reviews, leading projects)
+          - unit and integrational testing (Rspec/Minitest, Capybara)
 
 publications:
-    title: Publications
+    title: Articles
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      I've made a few articles about programming, which you can find on my personal blog or on Naturaily Blog site.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Service Object Overview 
+        link: 
+        authors: Tomasz Żdanuk Developer Blog
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Dependency Inversion Principle
+        link:
+        authors: Tomasz Żdanuk Developer Blog
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: Value Based Pagination In Ruby On Rails
+        link: https://naturaily.com/blog/value-based-pagination-rails
+        authors: Naturaily Blog
+
+      - title: How To Use Pwa Plugin In Vue Cli 3.0
+        link: https://naturaily.com/blog/pwa-vue-cli-3
+        authors: Naturaily Blog
+
+      - title: Vue Cli 3 New Era In Frontend Development
+        link: https://naturaily.com/blog/vue-cli-3-overview
+        authors: Naturaily Blog
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Ruby & Ruby on Rails
+        level: 75%
+      
+      - name: Ruby
+        level: 75%
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: Vue.js
+        level: 65%
 
-      - name: Angular
-        level: 98%
+      - name: JavaScript & ES6
+        level: 60%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 60%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Docker
+        level: 50%
+      
+      - name: Git
+        level: 70%
 
-      - name: Sketch & Photoshop
+      - name: OOP Design
         level: 60%
 
 footer: >
