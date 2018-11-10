@@ -42,7 +42,7 @@ Vue CLI 3.0 introduced plugin application structure, thanks to that you can easi
 
 To add PWA support plugin to your existing Vue CLI 3.0 app, simply type in your console:
 
-```shell
+```shell-session
 vue add @vue/pwa
 ```
 
@@ -50,7 +50,7 @@ Vue CLI generators will create all required files to make your app PWA ready.
 
 When from the start you know that you need PWA in your new app you can use
 
-```shell
+```shell-session
 vue create <app-name>
 ```
 
@@ -121,12 +121,10 @@ If you want to read more about Service Worker, I would recommend you to take a d
 
 ## What should we cache and how?
 
-```
-There are only two hard things in Computer Science:
-cache invalidation and naming things.
-
-~Phil Karlton
-```
+>There are only two hard things in Computer Science:
+>cache invalidation and naming things.
+>
+>~Phil Karlton
 
 To make your app working offline, it is important to cache proper files and resources in a proper manner. In the case of web application it will be usually:
 
@@ -217,7 +215,8 @@ if (process.env.NODE_ENV === 'production') {
 }
 ```
 
-NOTE: Remember to give the same name for Service worker file as it stands in `registerServiceWorker`. In this case `service-worker.js`.
+NOTE: Remember to give the same name for Service worker file as it stands in `registerServiceWorker`.
+In this case `service-worker.js`.
 
 For more information about caching using Workbox take a look [here.](https://developers.google.com/web/tools/workbox/)
 

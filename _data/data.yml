@@ -86,12 +86,8 @@ publications:
       I've made a few articles about programming, which you can find on my personal blog or <br>on Naturaily Blog site.
 
     papers:
-      - title: Service Object Overview 
-        link: 
-        authors: Tomasz Żdanuk Developer Blog
-
       - title: Dependency Inversion Principle
-        link:
+        link: https://t0mekz.github.io/Dependency-inversion-principle/
         authors: Tomasz Żdanuk Developer Blog
 
       - title: Value Based Pagination In Ruby On Rails
