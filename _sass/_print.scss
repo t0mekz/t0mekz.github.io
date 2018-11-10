@@ -35,5 +35,17 @@
        background-color: black !important;
        -webkit-print-color-adjust: exact; 
     }
-
+    .skillset .level-bar {
+        background:  #aaaaaa;
+    }
+    .wrapper-masthead {
+        display: none;
+    }
+    .pagebreak { page-break-before: always; }
+    .footer {
+        display: none;
+    }
+    .fas {
+        display: none;
+    }
 }

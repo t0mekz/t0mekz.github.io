@@ -14,6 +14,7 @@ permalink: /resume/
 {% include experiences.html %}
 
 {% include projects.html %}
+<div class="pagebreak"> </div>
 
 {% include publications.html %}
 
