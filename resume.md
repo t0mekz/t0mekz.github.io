@@ -7,9 +7,9 @@ permalink: /resume/
 
 {% include career-profile.html %}
 
-{% unless site.data.data.sidebar.education %}
+<!-- {% unless site.data.data.sidebar.education %} -->
   {% include education.html %}
-{% endunless %}
+<!-- {% endunless %} -->
 
 {% include experiences.html %}
 
