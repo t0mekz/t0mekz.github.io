@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dependency Inversion Principle
-image: 
+image: /assets/images/posts/dependency/head.png
 ---
 Source:  [Mostly based on Robert C. Martin article Engineering Notebook columns for The C++ Report.](https://drive.google.com/file/d/0BwhCYaYDn8EgMjdlMWIzNGUtZTQ0NC00ZjQ5LTkwYzQtZjRhMDRlNTQ3ZGMz/view)
 ## Definition

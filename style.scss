@@ -261,6 +261,12 @@ nav {
   padding-bottom: 1em;
   border-bottom: none;
 }
+.posts {
+  img {
+    width: 100%;
+    max-height: 300px;
+  }
+}
 
 .post {
   blockquote {
