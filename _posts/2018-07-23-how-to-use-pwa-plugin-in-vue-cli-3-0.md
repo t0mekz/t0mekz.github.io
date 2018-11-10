@@ -1,3 +1,9 @@
+---
+layout: post
+title: How to use PWA plugin in Vue CLI 3.0
+image: /assets/images/posts/pwa/head.jpg
+---
+
 In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin as one of the greatest features in my opinion. In this post, I'd like to introduce you into PWA world using Vue CLI 3.0.
 
 ## First of all, what's the PWA?

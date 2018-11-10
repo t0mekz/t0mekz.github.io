@@ -1,3 +1,9 @@
+---
+layout: post
+title: Value Based Pagination in Ruby on Rails
+image: /assets/images/posts/pagination/head.jpg
+---
+
 Have you ever had a situation like this: You are browsing the Internet, and on the page number 889 you find a bunch of great articles, which you want to share with your friends or just save in your browser tab to read it later. Seems like a good idea, right? Unfortunately, after few hours/days/month/decades, you realize that the link you have saved is now pointing to a completely different content! What a shame!
 
 Value-based pagination in Ruby on Rails to the rescue! In this article, you'll find the solution on how to prevent your users from getting that awkward feeling! Go grab a cup of coffee and stay/bear with me, it won't take long!
