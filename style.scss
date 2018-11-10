@@ -17,11 +17,13 @@ html {
   font-size: 100%;
 }
 
-// body {
+body {
 // 	background: $white;
 //   font: 18px/1.4 $helvetica;
 //   color: $darkGray;
-// }
+
+  background: url("/assets/images/tic-tac-toe.png");
+}
 
 .container {
   margin: 0 auto;
@@ -152,6 +154,8 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background: #fff;
+  box-shadow: -8px 8px 20px 0px #eee;
 }
 
 .masthead {
@@ -241,6 +245,13 @@ nav {
 // .main
 //
 
+.container#main {
+  background: #fff;
+  box-shadow: -4px 5px 20px 0px rgba(230,230,230,0.75);
+  padding: 5px 30px 0px;
+  max-width: 940px;
+}
+
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
@@ -275,7 +286,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #eeeeee6b;
 }
 
 footer {

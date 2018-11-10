@@ -4,7 +4,7 @@
 
 sidebar:
     about: false # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Tomasz Żdanuk
@@ -49,18 +49,19 @@ career-profile:
       Curious, ambitious, heavy working, open minded.
 
 education:
-    - degree: BSc in Computer Science
+    - degree: B.E. in Computer Science
       university: Wrocław University of Technology
       time: 2013 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
+        After 3,5 years spent in university benches, I’ve graduated with the Bachelor of Engineering degree one
+        of the best technical universities in Poland.
+        <br>
+        During my BSc studies, I developed my skills in many fields like 
+        analytical thinking, database design, basic machine learning, computer network basics and a lot more.
+        <br>
+        Except for technical skills I’ve learned how to work under time pressure,
+        how to deal with many tasks in a short time period, or how to work in and manage small teams.
 
-          - Bullet point
-          - Bullet point 
 
 experiences:
     - role: Ruby on Rails & JavaScript Developer
@@ -70,7 +71,7 @@ experiences:
         I've gone through all career steps, from an Intern to the Full Mid.   
         During this time I’ve worked on 10+ different projects,
         with various team sizes (in teams from 1 to 5 peoples),
-        from different countries and in different approaches (outsourcing/full product).
+        from different countries and in different approaches (outsourcing / <br>full product).
 
         My main responsibilites was:
           - developing and maintaining backend applications
@@ -82,7 +83,7 @@ experiences:
 publications:
     title: Articles
     intro: |
-      I've made a few articles about programming, which you can find on my personal blog or on Naturaily Blog site.
+      I've made a few articles about programming, which you can find on my personal blog or <br>on Naturaily Blog site.
 
     papers:
       - title: Service Object Overview 
