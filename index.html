@@ -8,7 +8,9 @@ layout: default
       {% if post.image %}
         <p>
           <a href="{{ site.baseurl }}{{ post.url }}">
-            <img border="0" alt="{{post.title}}" src="{{post.image}}">
+            <div class="crop-height">
+              <img class="scale" border="0" alt="{{post.title}}" src="{{post.image}}">
+            </div>
           </a>
         </p>
       {% endif %}

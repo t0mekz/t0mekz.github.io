@@ -261,12 +261,6 @@ nav {
   padding-bottom: 1em;
   border-bottom: none;
 }
-.posts {
-  img {
-    width: 100%;
-    max-height: 300px;
-  }
-}
 
 .post {
   blockquote {
@@ -285,6 +279,28 @@ nav {
   .read-more {
     text-transform: uppercase;
     font-size: 15px;
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+  .crop-height {
+    /* max-width: 1200px; /* img src width (if known) */
+    max-height: 320px;
+    overflow: hidden; 
+  }
+
+  img.scale {
+    /* corrects inline gap in enclosing div */
+    display: block;
+    max-width: 100%;
+    /* just in case, to force correct aspect ratio */
+    height: auto !important;
+    width: auto\9; /* ie8+9 */
+    /* lt ie8 */
+    -ms-interpolation-mode: bicubic; 
   }
 }
 

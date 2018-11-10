@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vue CLI 3.0 New Era in frontend development
+image: /assets/images/posts/vue3/head.jpg
+tags: [vue, vue.js, javascript, frontend]
+---
 Not so long ago, **Vue CLI** finally changed status from '_Beta_' to '_Release Candidate_', so now it's a great time to take a deeper look at all the new features the current version has to offer.
 
 ### Why was the change needed?
@@ -45,7 +51,7 @@ Plugins which you can choose:
 * Unit Testing
 * E2E Testing
 
-![vue-cli-3-built-in-features](/assets/images/vue-cli-3-built-in-features.jpg)
+![vue-cli-3-built-in-features](/assets/images/posts/vue3/vue-cli-3-built-in-features.jpg)
 
 ### No need to eject
 
@@ -75,7 +81,7 @@ Globally installed Vue CLI 3 allows you to serve .js or .vue files, just using '
 
 Quite a cool feature in the new CLI is also Graphical User Interface. If you are not a huge fan of typing in the console and you prefer more "windows" style configuration that's probably a great feature for you.
 
-![vue-cli-3-gui](/assets/images/vue-cli-3-gui.jpg)
+![vue-cli-3-gui](/assets/images/posts/vue3/vue-cli-3-gui.jpg)
 
 ### Environment Variables and Modes
 
@@ -85,7 +91,7 @@ You specify 'env' variables by simply placing \[them] in proper files, with '.en
 
 Here's file description from Vue CLI docs.
 
-```shell
+```shell-session
 .env                # loaded in all cases
 .env.local          # loaded in all cases, ignored by git
 .env.[mode]         # only loaded in specified mode
@@ -120,7 +126,7 @@ According to their names it's gonna build Library and Web Component from your co
 
 To build your code to in certain mode use this command:
 
-```shell
+```shell-session
 vue-cli-service build --target <target-name> --name <name> [entry]
 ```
 

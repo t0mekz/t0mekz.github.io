@@ -9,6 +9,10 @@
   margin: 20px 0 20px 0;
   overflow: scroll;
   border-radius: 5px;
+
+  code {
+    color: #fff;
+  }
 }
 
 code {
@@ -57,7 +61,7 @@ code {
 .highlight .nf { color: #26d26e } /* Name.Function */
 .highlight .nl { color: #e8e8e8 } /* Name.Label */
 .highlight .nn { color: #e8e8e8 } /* Name.Namespace */
-.highlight .nx { color: #555 } /* Name.Other */
+.highlight .nx { color: #50addc } /* Name.Other */
 .highlight .py { color: #e8e8e8 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */
